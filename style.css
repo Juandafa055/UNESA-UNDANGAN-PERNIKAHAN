@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #3b3730;
+  background-color: #fffdf9;
+}
+
+h1, h2, h3 {
+  font-family: Georgia, serif;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+h1 span {
+  color: #a78660;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+.hero {
+  background-color: #eae3d7;
+}
+
+.foto-utama {
+  display: block;
+  height: auto;
+}
+
+.bagian-hero {
+  background-color: #ede6da;
+}
+
+.tulisan-kecil {
+  font-size: 0.78rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.warna-coklat {
+  color: #987653;
+}
+
+.teks-abu {
+  color: #6e6961;
+}
+
+.tombol-undangan {
+  color: #fff;
+  background-color: #52664e;
+  border-radius: 24px;
+}
+
+.tombol-undangan:hover {
+  color: #fff;
+  background-color: #40533c;
+}
+
+.bagian-krem {
+  background-color: #f4f0e9;
+}
+
+.card {
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: #fffdf9;
+}
+
+.foto-mempelai {
+  width: 100%;
+  height: auto;
+}
+
+.foto-galeri {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.bagian-penutup {
+  background-color: #56694f;
+  color: #ffffff;
+}
+
+#undangan {
+  scroll-margin-top: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 991px) {
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 1.9rem; }
+}
+
+@media (max-width: 575px) {
+  h1 { font-size: 2.1rem; }
+  .foto-galeri { height: auto; }
+}
